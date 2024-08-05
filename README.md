@@ -46,7 +46,7 @@ make_request_CSV_to_JSON("CSVs/trainees.csv", "JSONS/trainees.json")
 ### or 
 
 ```
-curl -X POST http://localhost:5000/convert \ -F "file=@/path/to/your/file.csv"
+curl -X POST http://localhost:4000/convert \ -F "file=@/path/to/your/file.csv"
 ```
 
 ## Receiving Data from the Microservice
