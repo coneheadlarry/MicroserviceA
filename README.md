@@ -16,7 +16,7 @@ This service converts uploaded CSV files to JSON format. It is implemented using
 To request data from the service, you need to POST a CSV file path to the /convert endpoint.
 
 ```
-POST http://localhost:4000/convert
+POST URL/convert -F "file path"
 ```
 
 
