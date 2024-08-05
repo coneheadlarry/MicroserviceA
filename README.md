@@ -1,11 +1,5 @@
 # CSV to JSON Microservice
 
-#### Communication Contract
-```
-We will use Discord to communicate.
-We are committed to a response time of 24 hours, with understanding that all of us have individual lives with competing priorities.
-We should always be respectful to each other and assume positive intent
-```
 
 ## Overview
 
