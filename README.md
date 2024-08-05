@@ -69,7 +69,7 @@ Appon successful processing, the service returns the JSON representation of the 
 
 # UML Diagram
 
-![UML diagram](ReadMeImages\image.png)
+![UML diagram](ReadMeImages/image.png)
 
 ### Quick Start Guide
 Create a function that has service URL file path, and save path. You can then call the function when you need to convert a CSV to a JSON file.
