@@ -87,3 +87,36 @@ def make_request_CSV_to_JSON(file_path, save_path):
 
 make_request_CSV_to_JSON("CSVs/trainees.csv", "JSONS/trainees.json")
 ```
+
+
+
+### communication contract
+
+4.a 
+question:  Stated the teammate for whom you implemented "Microservice A"
+answer : Christopher Bremseth
+
+4.b
+Clearly stated the current status of the microservice you are implementing / you implemented for your teammate.
+Completed/fully working.
+
+4.c. Clearly stated problems with the microservice you implemented and by when you'll fix them (if there are any problems)
+
+The service has no issue I just removed all development code and debug so now runs it doesnt give this is a development build warning.
+
+4.d. Clearly described how your teammate should go about accessing the microservice you implemented
+
+The service has its code hosted on github. https://github.com/coneheadlarry/MicroserviceALinks to an external site.
+
+ 
+
+4.e. Clearly stated what your teammate should do if they cannot access/call the microservice you implemented.
+They can send me a message on discord and I will try and respond within 12 hours. If they can not accesses the code i can just send them the files directly.
+
+ 
+
+4.f. Clearly stated by when your teammate needs to notify you of problems with the microservice you implemented
+By friday or thursday works best so i can implement them before code review deadline.
+
+4.g. Clearly stated anything else your teammate needs to know, if there is anything.
+the service was made with love, JK. The service no longer has text files as means of communication. This was already communicated just has a post request with the file path that would have been in the text file.
