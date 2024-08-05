@@ -51,7 +51,7 @@ curl -X POST http://localhost:5000/convert \ -F "file=@/path/to/your/file.csv"
 
 ## Receiving Data from the Microservice
 
-Appon successful processing, the service returns the JSON representation of the CSV data.
+Appon successful processing, the service returns the JSON representation of the CSV data. If you use example code for a request the JSON will be saved in the specified path.
 
 ### Example Response 
 ```
