@@ -13,10 +13,10 @@ This service converts uploaded CSV files to JSON format. It is implemented using
 
 
 ## HTTP communcation 
-To request data from the service, you need to POST a CSV file to the /convert endpoint.
+To request data from the service, you need to POST a CSV file path to the /convert endpoint.
 
 ```
-POST /convert
+POST http://localhost:4000/convert
 ```
 
 
@@ -27,7 +27,7 @@ This example creates a request function that gets the JSON file from the service
 import requests
 
 def make_request_CSV_to_JSON(file_path, save_path):
-    url = "http://localhost:5000/convert"
+    url = "http://localhost:4000/convert"
     files = {'file': open(file_path, 'rb')}
 
     response = requests.post(url, files=files)
@@ -77,7 +77,7 @@ Create a function that has service URL file path, and save path. You can then ca
 import requests
 
 def make_request_CSV_to_JSON(file_path, save_path):
-    url = "http://localhost:5000/convert"
+    url = "http://localhost:4000/convert"
     files = {'file': open(file_path, 'rb')}
 
     response = requests.post(url, files=files)
