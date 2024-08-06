@@ -21,7 +21,7 @@ POST URL/convert -F "file path"
 
 
 ## Example Request 
-This example creates a request function that gets the JSON file from the service then saves it in a specifed location.
+This example creates a request function that gets the JSON file from the service. Then once it retrives it saves JSON file in specifed location in the 2nd argument.
 
 ```
 import requests
@@ -43,7 +43,8 @@ def make_request_CSV_to_JSON(file_path, save_path):
 
 make_request_CSV_to_JSON("CSVs/trainees.csv", "JSONS/trainees.json")
 ```
-### or 
+### Second example
+Here we just send the file path to the service location. 
 
 ```
 curl -X POST http://localhost:4000/convert \ -F "file=@/path/to/your/file.csv"
