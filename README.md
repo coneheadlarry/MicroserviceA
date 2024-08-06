@@ -5,6 +5,12 @@
 
 This service converts uploaded CSV files to JSON format. It is implemented using Flask and provides a simple API to handle file uploads and receive JSON data.
 
+## Run Locally 
+If you need to run the service locally you will need to install flask
+
+```
+pip install Flask
+```
 
 ## HTTP Communcation 
 To request data from the service, you need to POST a CSV file path to the /convert endpoint. The server will return a JSON file. It is up to the user to decide what to do with the response.
